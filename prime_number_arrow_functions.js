@@ -6,7 +6,7 @@ var isPrimeNum = (num) => {
         console.log("It is not a number");
     }
     else if (num === 1) {
-        console.log("Number is not prime or composite");
+        console.log("Nu_mber is not prime or composite");
     }
     else if (num > 1) {
         for (var i = 2; i <= num / 2; i++) {
@@ -23,4 +23,4 @@ var isPrimeNum = (num) => {
     return isprime;
 }
 
-console.log(isPrimeNum(12));
+console.log(isPrimeNum(7));
